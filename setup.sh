@@ -13,4 +13,4 @@ conda activate tumo-irta
 
 pip install django nltk pystemmer
 
-echo "\nconda activate tumo-irta" >> ~/.bash_profile
+echo "conda activate tumo-irta" >> ~/.bash_profile
