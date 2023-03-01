@@ -5,7 +5,7 @@ bash ~/miniconda.sh -b -p $HOME/miniconda
 
 eval "$(/Users/adobeuser/miniconda/bin/conda shell.bash hook)"
 
-conda init 
+conda init -q
 
 conda create --name tumo-irta python=3.10
 
