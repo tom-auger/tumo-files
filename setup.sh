@@ -7,7 +7,7 @@ eval "$(/Users/adobeuser/miniconda/bin/conda shell.bash hook)"
 
 conda init -q
 
-conda create --name tumo-irta python=3.10
+conda create -y --name tumo-irta python=3.10 
 
 conda activate tumo-irta 
 
